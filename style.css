@@ -1,3 +1,9 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 h1{
     text-align: center;
 }
@@ -11,6 +17,8 @@ a.menu {
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 0.5rem;
+    align-items: center;
+    text-align: center;
 }
 
 a.menu:hover {
@@ -21,4 +29,17 @@ a.menu:hover {
     background-color: lightgray;
     padding: 1rem;
     display: flex;
+    width: 100%;
+}
+
+.datos {
+    width: 100%;
+    background-image: url(img/hero.jpg);
+}
+
+div.datos_c {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
