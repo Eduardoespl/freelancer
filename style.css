@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+a.menu {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 0.5rem;
+}
+
+a.menu:hover {
+    background-color: orange;
+}
+
+.menu_nav {
+    background-color: lightgray;
+    padding: 1rem;
+    display: flex;
+}
