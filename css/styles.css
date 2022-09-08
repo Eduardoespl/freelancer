@@ -2,6 +2,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 h1{
@@ -25,13 +26,6 @@ a.menu:hover {
     background-color: orange;
 }
 
-.menu_nav {
-    background-color: lightgray;
-    padding: 1rem;
-    display: flex;
-    width: 100%;
-}
-
 .datos {
     width: 100%;
     background-image: url(img/hero.jpg);
@@ -42,4 +36,22 @@ div.datos_c {
     align-items: center;
     text-align: center;
     flex-direction: column;
+}
+
+.menu_nav{
+    margin-bottom: 25px;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+a.contact{
+    text-decoration: none;
+    background-color: lightsalmon;
+    color: black;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+a.contact:hover{
+    background-color: lightpink;
 }
