@@ -99,43 +99,48 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe repellat quidem, quo odio perspiciatis molestiae totam assumenda.</p>
         </section>
       </div> <!-- .servicios -->
-    </main>
 
-    <section>
-      <h2>Contacto</h2>
-      <form>
-        <fieldset>
-          <legend>Contactame llenando todos los campos</legend>
 
-          <div>
-            <label>Nombre</label>
-            <input type="text" placeholder="Nombre">
-          </div>
+      <section>
+        <h2>Contacto</h2>
+        <form class="formulario">
+          <fieldset>
+            <legend>Contactame llenando todos los campos</legend>
 
-          <div>
-            <label>Telefono</label>
-            <input type="tel" placeholder="Télefono">
-          </div>
+            <div class="contenedor-campos">
+              <div class="campo">
+                <label>Nombre</label>
+                <input class="input-text" type="text" placeholder="Nombre">
+              </div>
 
-          <div>
-            <label>Correo</label>
-            <input type="email" placeholder="example@gmail.com">
-          </div>
+              <div class="campo">
+                <label>Telefono</label>
+                <input class="input-text" type="tel" placeholder="Télefono">
+              </div>
 
-          <div>
-            <label>Mensaje:</label>
-            <textarea></textarea>
-          </div>
+              <div class="campo">
+                <label>Correo</label>
+                <input class="input-text" type="email" placeholder="example@gmail.com">
+              </div>
 
-          <div>
-            <input type="submit" placeholder="Enviar">
-          </div>
-        </fieldset>
-      </form>
-    </section>
+              <div class="campo">
+                <label>Mensaje:</label>
+                <textarea class="input-text"></textarea>
+              </div>
+            </div>
 
-    <footer>
+            <div class="alinear-derecha flex">
+              <input class="boton w-sm-100" type="submit" placeholder="Enviar">
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+  </main>
+
+    <footer class="footer">
       <p>Todos los derechos reservados, Eduardo Espiritu Freelancer</p>
     </footer>
+
   </body>
 </html>
